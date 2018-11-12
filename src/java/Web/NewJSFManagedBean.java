@@ -5,6 +5,7 @@
  */
 package Web;
 
+import entity.Membre;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
@@ -15,12 +16,13 @@ import java.io.Serializable;
  */
 @Named(value = "Vue")
 @SessionScoped
-public class NewJSFManagedBean implements Serializable {
-
+public class NewJSFManagedBean implements Serializable
+{
     /**
      * Creates a new instance of NewJSFManagedBean
      */
-    public NewJSFManagedBean() {
+    public NewJSFManagedBean()
+    {
     }
     
 }
